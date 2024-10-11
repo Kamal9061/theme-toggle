@@ -1,0 +1,38 @@
+/* Common styles */
+.theme-toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.theme-toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme styles */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-theme .theme-toggle-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Dark theme styles */
+.dark-theme {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.dark-theme .theme-toggle-button {
+  background-color: #ffffff;
+  color: #000000;
+}
